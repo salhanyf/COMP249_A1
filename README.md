@@ -47,8 +47,10 @@ Brand: brand of the appliance<br>
 Type: type of the appliance<br>
 Price: price<br>
 Then ask the user which attribute he/she wishes to change by displaying the
-following menu:<br></p>
-![](images/change.png)<br><br>
+following menu:</p><br>
+
+![](images/change.png)
+
 <p>Once the user has entered a correct choice, ask the user for the new information and make the changes to the object attribute then display again all of the attributes on the screen to show that the change has taken place. Keep prompting the user for additional changes until the user enters 4. Each time the user is prompted for a choice, make sure that a number from 1 to 4 is entered, otherwise keep prompting until a valid number is entered. You should pay a special attention to the change when it comes to type, as the different types are specific and limited (cannot be different than the types indicated in the initial description in Part I above).<br></p>
 <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; III. Option 3: prompt the user to enter a brand name. You then need to display the information of all appliances in the inventory with that brand.</p>
 <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; IV. Option 4: prompt the user to enter a value (representing a price). You then need to display all appliances in the store that have a price smaller than that entered value.</p>
