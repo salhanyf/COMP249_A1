@@ -29,14 +29,14 @@ store can contain. Create an empty array, called inventory, that will have the p
 until they enter a number between 1 and 5 inclusive (i.e invalid number will result in
 repeating the display of the main menu):<br>
 ![](images/main-menu.png)<br><br>
-I. Option 1: Prompt the store owner for his/her password. (Make sure you have a constant variable containing the password “c249”. The store owner has a maximum of 3 attempts to enter the correct password. After the 3rd illegal entry, the main menu in Figure 1 is re-
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I. Option 1: Prompt the store owner for his/her password. (Make sure you have a constant variable containing the password “c249”. The store owner has a maximum of 3 attempts to enter the correct password. After the 3rd illegal entry, the main menu in Figure 1 is re-
 displayed again. Additionally after this process is repeated 4 consecutive times (i.e. total failed attempts is 12 consecutive attempts by now), the program must display the
 following messages: “Program detected suspicious activities and will terminate
 immediately!”, then the program must exits.<br>
 If the correct password is entered (which will reset the counter of failed attempts), ask the owner how many appliances he/she wants to enter. Check that there is enough space in
 the store to add these many appliances. If so, add them; otherwise
-inform the owner of the maximum remaining places in the array.<br>
-II. Option 2: Prompt the store owner for his/her password. (Still, password is “c249”). Again the store owner has 3 attempts to enter the correct password. However, after the 3rd illegal entry, the main menu in Figure 1 is simply re-displayed again (notice the different behaviour in that case from the previous one above).<br>
+inform the owner of the maximum remaining places in the array.<br></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; II. Option 2: Prompt the store owner for his/her password. (Still, password is “c249”). Again the store owner has 3 attempts to enter the correct password. However, after the 3rd illegal entry, the main menu in Figure 1 is simply re-displayed again (notice the different behaviour in that case from the previous one above).<br>
 Ask the user of the serial number of the appliance he/she wishes to update. If there
 is no object with that serial number in the array inventory, display a message
 indicating that and ask the user if he/she wishes to re-enter another serial number,
@@ -47,9 +47,9 @@ Brand: brand of the appliance<br>
 Type: type of the appliance<br>
 Price: price<br>
 Then ask the user which attribute he/she wishes to change by displaying the
-following menu:<br>
+following menu:</p><br>
 ![](images/change.png)<br><br>
 Once the user has entered a correct choice, ask the user for the new information and make the changes to the object attribute then display again all of the attributes on the screen to show that the change has taken place. Keep prompting the user for additional changes until the user enters 4. Each time the user is prompted for a choice, make sure that a number from 1 to 4 is entered, otherwise keep prompting until a valid number is entered. You should pay a special attention to the change when it comes to type, as the different types are specific and limited (cannot be different than the types indicated in the initial description in Part I above).<br>
-III. Option 3: prompt the user to enter a brand name. You then need to display the information of all appliances in the inventory with that brand.
-IV. Option 4: prompt the user to enter a value (representing a price). You then need to display all appliances in the store that have a price smaller than that entered value.
-V. Option 5: display a closing message and end the program.
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; III. Option 3: prompt the user to enter a brand name. You then need to display the information of all appliances in the inventory with that brand.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; IV. Option 4: prompt the user to enter a value (representing a price). You then need to display all appliances in the store that have a price smaller than that entered value.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; V. Option 5: display a closing message and end the program.</p>
