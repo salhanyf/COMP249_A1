@@ -27,4 +27,25 @@ A main() method that will:<br>
 store can contain. Create an empty array, called inventory, that will have the potential of keeping track of the created Appliance objects.<br>
 3 - Display a main menu (Figure 1) with the following choices and keep prompting the user
 until they enter a number between 1 and 5 inclusive (i.e invalid number will result in
-repeating the display of the main menu):
+repeating the display of the main menu):<br>
+![](images/main-menu.png)<br><br>
+i. Option 1: Prompt the store owner for his/her password. (Make sure you have a constant variable containing the password “c249”. The store owner has a maximum of 3 attempts to enter the correct password. After the 3rd illegal entry, the main menu in Figure 1 is re-
+displayed again. Additionally after this process is repeated 4 consecutive times (i.e. total failed attempts is 12 consecutive attempts by now), the program must display the
+following messages: “Program detected suspicious activities and will terminate
+immediately!”, then the program must exits.<br>
+If the correct password is entered (which will reset the counter of failed attempts), ask the owner how many appliances he/she wants to enter. Check that there is enough space in
+the store to add these many appliances. If so, add them; otherwise
+inform the owner of the maximum remaining places in the array.<br>
+ii. Option 2: Prompt the store owner for his/her password. (Still, password is “c249”). Again the store owner has 3 attempts to enter the correct password. However, after the 3rd illegal entry, the main menu in Figure 1 is simply re-displayed again (notice the different behaviour in that case from the previous one above).<br>
+Ask the user of the serial number of the appliance he/she wishes to update. If there
+is no object with that serial number in the array inventory, display a message
+indicating that and ask the user if he/she wishes to re-enter another serial number,
+or quit this operation and go back to the main menu. If the entered serial number
+exists, display the current information of that appliance in the following format:<br>
+Appliance Serial # xxxxxxx (where xxxxxxx is the serial number)<br>
+Brand: brand of the appliance<br>
+Type: type of the appliance<br>
+Price: price<br>
+Then ask the user which attribute he/she wishes to change by displaying the
+following menu:<br>
+![](images/change.png)<br><br>
